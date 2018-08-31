@@ -3,6 +3,7 @@ MAINTAINER iqueiroz
 
 RUN apt-get -qq update && \
     apt-get install -y --no-install-recommends \
+      ca-certificates \
       texlive-fonts-extra \
       texlive-fonts-recommended \
       texlive-latex-base \
